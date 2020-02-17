@@ -130,12 +130,12 @@ public class SavingsAccount extends BankAccount {
 
 - The textbook's motivational diagram:
 
-![](chap9-1.JPG)
+![](https://www.cs.binghamton.edu/~lander/cs140/chap9-1.JPG)
 
 - The actual example the Textbook studies relates to Question classes--this is a 
 UML (Unified Modeling Language) diagram:
 
-![](chap9-2.jpg)
+![](https://www.cs.binghamton.edu/~lander/cs140/chap9-2.JPG)
 
 - Class Question from section 1
 
@@ -228,7 +228,7 @@ public class QuestionDemo1
 - The subclass has an additional field. It also has an additional method and it modifies the behavior of the display method (this is called *overriding*)
 - Here is a more thorough Unified Modeling Language (UML) diagram:
 
-![](chap9-3.jpg)
+![](https://www.cs.binghamton.edu/~lander/cs140/chap9-3.JPG)
 
 ```java
 package sec03;
@@ -556,7 +556,7 @@ focuses on how the implicit parameter "this" determines the call to "display()"
 - The textbook describes how `super(...)` is used to pass parameters to the parent constructor from a child class on page 318
 - The overall structure of a `ChoiceQuestion` object called `first` in `QuestionDemo2` is shown here:
 
-![](chap9-4.jpg)
+![](https://www.cs.binghamton.edu/~lander/cs140/chap9-4.JPG)
 
 **Polymorphism--see Page 442**
 
@@ -564,11 +564,11 @@ focuses on how the implicit parameter "this" determines the call to "display()"
 - The addresses (addr.) are in the binary code of the program. 
 - This is the VMT of the ChoiceQuestion class. (Probably there is a second VMT for super. calls)
 
-![](chap9-5.jpg)
+![](https://www.cs.binghamton.edu/~lander/cs140/chap9-5.JPG)
 
 - `QuestionDemo4` in `new_version` uses the VMT above
 
-![](chap9-6.jpg)
+![](https://www.cs.binghamton.edu/~lander/cs140/chap9-6.JPG)
 
 **Forcing methods to be overridden**
 
